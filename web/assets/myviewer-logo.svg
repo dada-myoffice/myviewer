@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 120" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="title desc">
   <title id="title">MyViewer logo concept with cursor</title>
   <desc id="desc">Barevná kontura monitoru MyViewer se šipkovým kurzorem přes displej.</desc>
   <g id="monitor-contour" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <path id="red-segment" stroke="#E12B26" d="M10 58V28a18 18 0 0 1 18-18h52"/>
-    <path id="blue-segment" stroke="#008BE2" d="M80 10h52a18 18 0 0 1 18 18v30"/>
-    <path id="green-segment" stroke="#7CB342" d="M150 58v17a18 18 0 0 1-18 18H80"/>
-    <path id="gold-segment" stroke="#F1A900" d="M80 93H28a18 18 0 0 1-18-18V58"/>
+    <path id="red-segment" stroke="#E12B26" d="M20 55V28a18 18 0 0 1 18-18h42"/>
+    <path id="blue-segment" stroke="#008BE2" d="M80 10h42a18 18 0 0 1 18 18v27"/>
+    <path id="green-segment" stroke="#7CB342" d="M140 55v27a18 18 0 0 1-18 18H80"/>
+    <path id="gold-segment" stroke="#F1A900" d="M80 100H38a18 18 0 0 1-18-18V55"/>
   </g>
   <style>
     .monitor-stand{stroke:#000000}
     @media (prefers-color-scheme:dark){.monitor-stand{stroke:#F1F5F7}}
   </style>
   <g id="monitor-stand" class="monitor-stand" fill="none" stroke-width="7" stroke-linecap="round">
-    <path d="M59 109h44M80 93v15"/>
+    <path d="M59 115h42M80 100v15"/>
   </g>
-  <g id="cursor" transform="translate(107 38) rotate(-12 18 30)">
+  <g id="cursor" transform="translate(100 38) rotate(-12 18 30)">
     <path d="M4 3v59l17-16 12 25 9-5-12-25h23z" fill="#F1F5F7" stroke="#080B12" stroke-width="3" stroke-linejoin="round"/>
   </g>
 </svg>

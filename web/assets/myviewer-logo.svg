@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="title desc">
+  <title id="title">MyViewer logo</title>
+  <desc id="desc">Obrys obrazovky se čtyřmi barevnými prvky MyOffice a symbolem vzdáleného připojení.</desc>
+  <g id="myoffice-colors" fill="none" stroke-width="7" stroke-linejoin="round">
+    <rect id="red" x="14" y="14" width="24" height="24" stroke="#E12B26"/>
+    <rect id="blue" x="42" y="25" width="13" height="13" stroke="#008BE2"/>
+    <rect id="gold" x="19" y="43" width="19" height="19" stroke="#F1A900"/>
+    <rect id="green" x="42" y="43" width="15" height="15" stroke="#7CB342"/>
+  </g>
+  <g id="viewer-frame" fill="none" stroke="#F1F5F7" stroke-width="6" stroke-linejoin="round">
+    <rect x="8" y="8" width="144" height="88" rx="15"/>
+    <path d="M58 108h44M80 96v12" stroke-linecap="round"/>
+  </g>
+  <g id="remote-symbol" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 48h42" stroke="#32D5D2" stroke-width="6"/>
+    <path d="m108 36 13 12-13 12" stroke="#32D5D2" stroke-width="6"/>
+    <circle cx="78" cy="48" r="7" fill="#8B6CFF" stroke="none"/>
+  </g>
+</svg>

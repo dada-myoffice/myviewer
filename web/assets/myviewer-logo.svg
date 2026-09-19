@@ -14,7 +14,7 @@
   <g id="monitor-stand" class="monitor-stand" fill="none" stroke-width="7" stroke-linecap="round">
     <path d="M59 115h42M80 100v15"/>
   </g>
-  <g id="cursor" transform="translate(100 38) rotate(-12 18 30)">
+  <g id="cursor" transform="translate(97 45) rotate(-12 18 30)">
     <path d="M4 3v59l17-16 12 25 9-5-12-25h23z" fill="#F1F5F7" stroke="#080B12" stroke-width="3" stroke-linejoin="round"/>
   </g>
 </svg>

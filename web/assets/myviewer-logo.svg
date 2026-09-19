@@ -1,19 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="title desc">
-  <title id="title">MyViewer logo</title>
-  <desc id="desc">Kontura monitoru rozdělená na čtyři barevné části podle loga MyOffice a symbol vzdáleného připojení.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 120" role="img" aria-labelledby="title desc">
+  <title id="title">MyViewer logo concept with cursor</title>
+  <desc id="desc">Barevná kontura monitoru MyViewer se šipkovým kurzorem přes displej.</desc>
   <g id="monitor-contour" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
-    <path id="red-segment" stroke="#E12B26" d="M28 10h104q18 0 18 18v8"/>
-    <path id="blue-segment" stroke="#008BE2" d="M150 44v31q0 18-18 18h-8"/>
-    <path id="gold-segment" stroke="#F1A900" d="M112 93H28q-18 0-18-18v-8"/>
-    <path id="green-segment" stroke="#7CB342" d="M10 58V28q0-18 18-18"/>
+    <path id="red-segment" stroke="#E12B26" d="M10 58V28a18 18 0 0 1 18-18h52"/>
+    <path id="blue-segment" stroke="#008BE2" d="M80 10h52a18 18 0 0 1 18 18v30"/>
+    <path id="green-segment" stroke="#7CB342" d="M150 58v17a18 18 0 0 1-18 18H80"/>
+    <path id="gold-segment" stroke="#F1A900" d="M80 93H28a18 18 0 0 1-18-18V58"/>
   </g>
-  <g id="monitor-stand" fill="none" stroke="#F1F5F7" stroke-width="6" stroke-linecap="round">
-    <path d="M58 108h44M80 93v15"/>
+  <style>
+    .monitor-stand{stroke:#000000}
+    @media (prefers-color-scheme:dark){.monitor-stand{stroke:#F1F5F7}}
+  </style>
+  <g id="monitor-stand" class="monitor-stand" fill="none" stroke-width="7" stroke-linecap="round">
+    <path d="M59 109h44M80 93v15"/>
   </g>
-  <g id="remote-symbol" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M53 51h49" stroke="#F1F5F7" stroke-width="6"/>
-    <path d="m91 39 13 12-13 12" stroke="#32D5D2" stroke-width="6"/>
-    <circle cx="53" cy="51" r="7" fill="#8B6CFF" stroke="none"/>
+  <g id="cursor" transform="translate(107 38) rotate(-12 18 30)">
+    <path d="M4 3v59l17-16 12 25 9-5-12-25h23z" fill="#F1F5F7" stroke="#080B12" stroke-width="3" stroke-linejoin="round"/>
   </g>
 </svg>
 
